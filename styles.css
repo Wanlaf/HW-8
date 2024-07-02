@@ -1,0 +1,44 @@
+h3:first-child { 
+color: pink;
+}
+#greycol {
+color: gray;
+}
+div:nth-child(5) > p {
+color: red;
+}
+/* h3:nth-child(1) { 
+color: green;
+}*/
+p:nth-child(7) {
+color: green;
+}
+/* p:last-child { 
+color: yellow;
+}*/
+/* #yellow {
+color: red;
+} */
+.yellow {
+color: yellow;
+}
+/* Завдання №2 */
+h2:hover,
+h2:focus {
+    background-color: yellow;
+}
+h2:nth-child(1) {
+    color: red;
+}
+ul:nth-child(even) {
+    color: blue;
+}
+h2:first-child {
+color: green;
+}
+ul:last-child {
+color: pink;
+}
+ul:nth-child(8) {
+    color: blueviolet;
+}
